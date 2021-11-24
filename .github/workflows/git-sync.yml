@@ -6,7 +6,8 @@ on:
       - main
       - master
       - development
-
+  workflow_dispatch:
+    
 jobs:
   git-sync:
     runs-on: ubuntu-latest
